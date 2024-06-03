@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<link REL='SHORTCUT ICON' HREF='favicon.ico'>
+	<title>Pattern Transfer - About</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<head>
+		<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+		<meta name="description" content="Pattern Transfer - Excel automation">
+		<meta name="keywords" content="Excel, data, copy, paste, automation, Pattern Transfer, customisable">
+		<meta name="author" content="Dave Jones">
+	</head>
+	<body class="orange">
+		<div id="header">
+			<div id="headerCentre">
+				<p>
+					<b>Pattern Transfer</b> by Dave Jones<br /><i><font style="color:darkred;font-size:22px;">Excel copy-paste automation made easy!</font></i>
+				</p>
+				<div id="copyright">Copyright &#169;<script>document.write(new Date().getFullYear())</script> Dave Jones</div>
+				<div id="tabsContainer">
+					<a href="index.html" class="tabs"><div id="bloc1">Introduction</div></a>
+					<a href="guidance.html" class="tabs"><div id="bloc2">Guidance</div></a>
+					<a href="about.html" class="tabs"><div id="bloc3">About</div></a>
+					<a href="testimonials.html" class="tabs"><div id="bloc4">Testimonials</div></a>
+				</div>
+
+			</div>
+		</div>
+		<div id="content">
+			<p>
+				<br />
+				I made <b>Pattern Transfer</b> whilst working with in-flight media data. We worked with hundreds of disparate systems, and often needed to transform data from one to another.
+				<br /><br />
+				This kind of work was achieved using everything from manual copy/paste to task-specific VBA automation. However, the automation was so specific that there were too many scripts to organise and recall, and this complication obscured the task, limiting understanding and making it difficult to troubleshoot.
+				<br /><br />
+				<b>Pattern Transfer</b> was made to achieve the intuitive feel of copy/paste but with the power of specific automation. It's designed to be quickly configured each time you open it up so that the exact process is fresh in your mind.
+				<br /><br />
+				The tool is provided freely, but if it helps and you would like to make a small donation I would be very grateful, and would put it towards web hosting. Currently my yearly costs break down as follows: Domain name &#163;14.39, Hosting &#163;71.86, SSL &#163;50.39<br /><br />
+
+				<form action="https://www.paypal.com/donate" method="post" target="_top">
+				<input type="hidden" name="hosted_button_id" value="UCYDNSKRHGYSC" />
+				<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+				<img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+				
+				<br /><br /><br />
+				
+				<b>FAQs</b><br />
+				<ul>
+				<li><b>Q:</b> I selected an incorrect field whilst configuring. Can I fix just that one field? <b>A:</b> Yes. Hop over to the <u>config</u> sheet, find the affected field name in column B and look at the cell coordinates in column C/D/E/F. For example, a coordinate of <b>4_1</b> means "row 4, column 1", i.e. cell A4. Change the coordinate to that of the cell that you should have selected.</li>
+				<li><b>Q:</b> Can't Power Query do this? <b>A:</b> Yes. Pattern Transfer is faster to learn, and faster to use.</li>
+				<li><b>Q:</b> Why can't I transfer within the same sheet? <b>A:</b> It would be impossible to transfer within sheet because Pattern Transfer uses the active cells (of the source and destination workbooks) as anchor points.</li>
+				<li><b>Q:</b> Why can't I transfer within the same workbook, but from one sheet to another? <b>A:</b> Pattern Transfer could be adapted to work this way, but it would be less user-friendly, since it would be difficult to watch the source and destination simultaneaously.</li>
+				<li><b>Q:</b> How many cells can I transfer in one go? <b>A:</b> The table on the fields sheet has space for 200 field labels; however you can extend the table to up to 1000 fields if required. Keep in mind though, that configuring enormous numbers of fields would be pretty horrible. With that number of fields per record, you might be better off writing some custom automation.</li>
+				</ul>
+			</p>
+			<br /><br />
+		</div>
+	</body>
+</html>

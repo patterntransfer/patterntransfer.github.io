@@ -1,0 +1,137 @@
+@font-face
+{
+    font-family: "Segoe UI";
+    src: url("fonts/SEGOEUI.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+html * {
+		font-family: Segoe UI, Arial, Helvetica !important;
+	}
+
+a.tabs:link { 
+	color: black;
+}
+a.tabs:visited { 
+	color: black;
+}
+a.tabs:active { 
+	color: black;
+}
+a.tabs:hover { 
+	color: black;
+}
+
+#header {
+		position: absolute;
+		top: 0px;
+		height: 120px;
+		left: 0px;
+		width: 100%;
+		//text-align:center; /*!*/
+		overflow: hidden;
+		//background-color: lightgray;
+		background-image: url("img/cellBG.png");
+		background-repeat: repeat;
+	}
+#headerCentre {	
+		margin: 0 auto;
+		position: relative;
+		top: 0px;
+		height: 120px;
+		//left: 0px;
+		width: 1000px;
+		text-align:center; /*!*/
+		//background-color: powderblue;
+		//overflow: hidden;
+	}
+#headerCentre p {
+	margin: 0;
+	left: 0;
+	text-align:left;
+	font-size: 25px;
+}	
+#headerCentre img {
+	//margin: auto;
+	//width: 50%;
+	left: 0;
+    position: absolute;
+    bottom: 0;
+	
+}
+
+#copyright
+{
+	color: gray;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#tabsContainer
+{
+    //text-align:center;
+	position: absolute;
+	bottom: 0;
+}
+#bloc1, #bloc2, #bloc3, #bloc4, #bloc5
+{
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	height: 0;
+	width: 135px;
+    display: inline-block;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#bloc1 {
+	border-bottom: 35px solid #c1c6dc;
+}
+
+#bloc2 {
+	border-bottom: 35px solid #c1d6c1;
+}
+
+#bloc3 {
+	border-bottom: 35px solid #d7c0bb;
+}
+
+#bloc4 {
+	border-bottom: 35px solid #dad7b7;
+}
+
+#bloc5 {
+	border-bottom: 35px solid #c1c1c1;
+}
+
+#content {
+	margin: 0 auto;
+	position: relative;
+	//left: 0;
+	width: 1000px;
+	top: 120px;
+}
+	
+	
+body.blue
+{
+background: #c1c6dc;
+}
+body.green
+{
+background: #c1d6c1;
+}
+body.orange
+{
+background: #d7c0bb;
+}
+body.yellow
+{
+background: #dad7b7;
+}
+body.grey
+{
+background: #c1c1c1;
+}

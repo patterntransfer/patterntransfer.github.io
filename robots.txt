@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /8pm/
+Disallow: /files/
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /mutlog/
+Disallow: /tabletdemo/
+Disallow: /tabletdemo43/
+Disallow: /contactform.php
